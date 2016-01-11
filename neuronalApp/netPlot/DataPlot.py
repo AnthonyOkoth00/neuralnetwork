@@ -4,7 +4,7 @@ import numpy as np
 def data_plot(testdata, resultdata):
 
     num_of_data = len(testdata)
-    X = np.linspace(0, num_of_data, num_of_data, endpoint=True)
+    X = np.linspace(1, num_of_data, num_of_data, endpoint=True)
 
     plt.plot(X, testdata)
     plt.plot(X, resultdata)
